@@ -1,0 +1,87 @@
+{
+  "name": "File Explorer",
+  "type": "folder",
+  "children": [
+    {
+      "name": "node_module",
+      "type": "folder",
+      "children": []
+    },
+    {
+      "name": "public",
+      "type": "folder",
+      "children": [
+        {
+          "name": "index.html",
+          "type": "file"
+        },
+        {
+          "name": "vite.svg",
+          "type": "file"
+        },
+        {
+          "name": "favicon.ico",
+          "type": "file"
+        },
+        {
+          "name": "manifeast.json",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "type": "folder",
+      "children": [
+        {
+          "name": "assets",
+          "type": "folder",
+          "children": [
+            {
+              "name": "react.svg",
+              "type": "file",
+              "children": []
+            },
+            {
+              "name": "components",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "PersonInfo",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "index.js",
+                      "type": "file",
+                      "children": []
+                    },
+                    {
+                      "name": "index.css",
+                      "type": "file",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "App.css",
+          "type": "file",
+          "children": []
+        },
+        {
+          "name": "App.jsx",
+          "type": "file",
+          "children": []
+        },
+        {
+          "name": "data.json",
+          "type": "file",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
