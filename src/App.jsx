@@ -4,10 +4,11 @@ import "./App.css";
 
 function App({ data }) {
   const [show, setShow] = useState(false);
+
   return (
     <div className="container">
       <div>
-        {data?.type === "folder" ? "📁" : "📄"}
+        {data?.type === "folder" ? (show ? "📂" : "📁") : "📄"}
         <span onClick={() => setShow((prev) => !prev)}> {data?.name}</span>
       </div>
       {show &&
