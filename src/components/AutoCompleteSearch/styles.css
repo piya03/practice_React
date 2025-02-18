@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  //width: 50%;
+  margin: auto;
+  text-align: left;
+  span {
+    position: relative;
+    left: -30px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+.results {
+  padding-left: 60px;
+  p {
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+  }
+  p:hover {
+    background-color: antiquewhite;
+  }
+}
+input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: white;
+}
+label {
+  font-size: 16px;
+}
+button {
+  padding: 8px;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 5px;
+}

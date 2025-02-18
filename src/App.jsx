@@ -1,6 +1,9 @@
 import { useState } from "react";
 import FileExplorerV2 from "./components/FileExplorerV2";
 import ContextWrapper from "./context/ContextWrapper.jsx";
+import AutoCompleteSearch from "../src/components/AutoCompleteSearch";
+import FileExplorerV3 from "./components/FileExplorerV3";
+
 function App() {
   return (
     // basic virsion
@@ -21,9 +24,14 @@ function App() {
     // </div>
 
     // here advance version
-    <ContextWrapper>
-      <FileExplorerV2 />
-    </ContextWrapper>
+    <>
+      {/* <ContextWrapper>
+        <FileExplorerV2 />
+      </ContextWrapper>
+
+      <AutoCompleteSearch /> */}
+      <FileExplorerV3 />
+    </>
   );
 }
 

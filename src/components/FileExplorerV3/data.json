@@ -1,0 +1,81 @@
+[
+  {
+    "id" : "1",
+    "name": "node_modules",
+    "isFolder": true,
+    "children": []
+  },
+  {
+    "id" : "2",
+    "name": "public",
+    "isFolder": true,
+    "children": [
+      {
+        "id" : "3",
+        "name": "vite.svg",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "id" : "4",
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "id" : "5",
+        "name": "assets",
+        "isFolder": true,
+        "children": []
+      },
+      {
+        "id" : "6",
+        "name": "components",
+        "isFolder": true,
+        "children": [
+          {
+            "id" : "7",
+            "name": "FileExplore_V3",
+            "isFolder": true,
+            "children": [
+              {
+                "id" : "8",
+                "name": "index.js",
+                "isFolder": false
+              },
+              {
+                "id" : "9",
+                "name": "index.css",
+                "isFolder": false
+                
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "10",
+        "name": "App.jsx",
+        "isFolder": false
+      },
+      {
+        "id" : "11",
+        "name": "App.css",
+        "isFolder": false
+    
+      }
+    ]
+  },
+  {
+    "id" : "12",
+    "name": "package.json",
+    "isFolder": false
+
+  },
+  {
+    "id" : "13",
+    "name": "package-lock.json",
+    "isFolder": false
+
+  }
+]
