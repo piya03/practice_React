@@ -3,6 +3,7 @@ import FileExplorerV2 from "./components/FileExplorerV2";
 import ContextWrapper from "./context/ContextWrapper.jsx";
 import AutoCompleteSearch from "../src/components/AutoCompleteSearch";
 import FileExplorerV3 from "./components/FileExplorerV3";
+import OTP from "./components/OTP";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       </ContextWrapper>
 
       <AutoCompleteSearch /> */}
-      <FileExplorerV3 />
+      {/* <FileExplorerV3 /> */}
+      <OTP />
     </>
   );
 }
