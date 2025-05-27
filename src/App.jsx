@@ -4,6 +4,7 @@ import ContextWrapper from "./context/ContextWrapper.jsx";
 import AutoCompleteSearch from "../src/components/AutoCompleteSearch";
 import FileExplorerV3 from "./components/FileExplorerV3";
 import OTP from "./components/OTP";
+import Toaster from "./components/Toaster";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
 
       <AutoCompleteSearch /> */}
       {/* <FileExplorerV3 /> */}
-      <OTP />
+      {/* <OTP /> */}
+      <Toaster />
     </>
   );
 }
