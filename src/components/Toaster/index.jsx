@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Toast from "./Toast";
 const ToastContainer = () => {
   const [toasts, setToasts] = useState([]);
-  console.log(toasts, "toasts");
 
   function addToast({ message, type, duration }) {
     const id = Date.now();

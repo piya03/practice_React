@@ -5,7 +5,7 @@ import AutoCompleteSearch from "../src/components/AutoCompleteSearch";
 import FileExplorerV3 from "./components/FileExplorerV3";
 import OTP from "./components/OTP";
 import Toaster from "./components/Toaster";
-
+import LearnContext from "./components/LearnContext";
 function App() {
   return (
     // basic virsion
@@ -34,7 +34,8 @@ function App() {
       <AutoCompleteSearch /> */}
       {/* <FileExplorerV3 /> */}
       {/* <OTP /> */}
-      <Toaster />
+      {/* <Toaster /> */}
+      <LearnContext />
     </>
   );
 }
