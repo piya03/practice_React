@@ -6,6 +6,8 @@ import FileExplorerV3 from "./components/FileExplorerV3";
 import OTP from "./components/OTP";
 import Toaster from "./components/Toaster";
 import LearnContext from "./components/LearnContext";
+
+import InfiniteScrollIntersectionObserver from "./components/InfiniteScroll/IntersectionObserver";
 function App() {
   return (
     // basic virsion
@@ -35,7 +37,8 @@ function App() {
       {/* <FileExplorerV3 /> */}
       {/* <OTP /> */}
       {/* <Toaster /> */}
-      <LearnContext />
+      {/* <LearnContext /> */}
+      <InfiniteScrollIntersectionObserver />
     </>
   );
 }
