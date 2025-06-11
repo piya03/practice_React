@@ -14,15 +14,17 @@ function InfiniteScrollIntersectionObserver() {
       `https://jsonplaceholder.typicode.com/posts?_limit=10&_page=${pageNo}`
     );
     const data = await res.json();
-    console.log("🚀 ~ apiCall ~ data:", data);
-    if (data.length === 0 || data.length < 10) {
-      setHasMore(false);
-    }
-    setData((prevData) => {
-      return [...prevData, ...data];
-    });
 
-    setLoading(false);
+    setTimeout(() => {
+      if (data.length === 0 || data.length < 10) {
+        setHasMore(false);
+      }
+      setData((prevData) => {
+        return [...prevData, ...data];
+      });
+
+      setLoading(false);
+    }, 6000);
   }
 
   useEffect(() => {
